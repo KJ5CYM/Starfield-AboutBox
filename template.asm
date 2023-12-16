@@ -314,12 +314,7 @@ UpdateScroller proc
 
 	.while eax != 150
 
-	;invoke Sleep,20
-	invoke Sleep,3
-	push fade
-	push Yellow		;white
-	call FadeIn_Out
-	mov fade,eax
+
 	
 	inc time
 	mov eax,time
