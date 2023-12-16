@@ -53,8 +53,8 @@ BTN_ABOUT			equ 102
 .data
 AboutFont			LOGFONT <14, 7, 0, 0, FW_BOLD, FALSE, FALSE, FALSE, ANSI_CHARSET, OUT_CHARACTER_PRECIS, 										CLIP_DEFAULT_PRECIS,PROOF_QUALITY,DEFAULT_PITCH,"courier new">
 
-szAboutText 	db "Procyon Software Presents:",13
-			db "SomeApp v1.1",0
+szAboutText 	db "SomeApp",13
+			db "Version 1.1",0
 			db "Programmed by:",13
 			db "r0b0h0b0",0
 			db "Greetz to:",13
